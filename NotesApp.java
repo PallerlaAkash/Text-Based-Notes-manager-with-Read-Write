@@ -15,7 +15,7 @@ public class NotesApp {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // Clear newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -66,4 +66,5 @@ public class NotesApp {
             System.out.println("Error reading notes: " + e.getMessage());
         }
     }
+
 }
